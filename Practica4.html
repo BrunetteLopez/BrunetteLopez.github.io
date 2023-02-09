@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: pink;
+            padding: 30px;
+            text-align: center;
+            font-size: 20px;
+            color: black;
+        }
+        nav{
+            float: left;
+            width: 20%;
+            height: 300px;
+            background-color: rgb(230, 213, 253);
+            padding: 20px;
+        }
+        nav ul{
+            list-style-type: ;
+            padding: 0;
+        }
+        article{
+            float: left;
+            width: 80%;
+            padding: 20px;
+            background-color: rgb(181, 114, 243);
+            height: 300px;
+        }
+        section: ::after{
+            content: "";
+            display: table;
+            clear: both;
+    
+        }
+        footer{
+            background-color: pink;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+        @media(max-width:600px){
+           nav,article{
+            width:100% ;
+            height: auto;
+            
+           }
+            
+        }
+        
+         
+            
+        
+
+    </style>
+</head>
+<body>
+    <header>
+       <h3>VENTA DE SLIME</h3>
+    </header> 
+    <section>
+        <nav>
+            <ul>
+               <li><a href="">Direccion de entrega</a></li>
+               <li><a href="">Menu de slimes</a></li>
+               <li><a href="">Rebajas</a></li>
+               
+            </ul>
+        </nav>
+        <article>
+            <h1>Lista de dirección de entrega</h1>
+            <p>Cetis 107.</p>
+            <p>Centro.</p>
+            <p>Parque acuatico</p>
+        </article>
+    </section>
+    <footer>
+        <p>&COPY; SLIMESRUNET </p>
+    </footer>
+    <br>
+    <h3>Brunette Sofia Lopez Chavira Fecha:08/02/23- &COPY;2023- 12bslc@gmail.com;</h3>
+
+</body>
+</html>
